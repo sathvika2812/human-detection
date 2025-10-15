@@ -6,7 +6,7 @@ import os
 import time
 
 st.set_page_config(page_title="Human Detection YOLOv8", layout="wide")
-st.title("👀 Human Detection YOLOv8 (Headless)")
+st.title("Human Detection YOLOv8")
 
 # Load YOLOv8 model
 model = YOLO("yolov8n.pt")
